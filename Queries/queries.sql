@@ -195,4 +195,4 @@ INNER JOIN dept_emp as de
 	ON (ri.emp_no = de.emp_no)
 INNER JOIN departments as d
 	ON (de.dept_no = d.dept_no)
-WHERE d.dept_name IN ('Sales');
+WHERE d.dept_name IN ('Sales', 'Development');
