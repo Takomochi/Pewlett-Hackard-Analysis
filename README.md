@@ -18,7 +18,7 @@ Using SQL, we will retrieve specific information and save the tables in new csv 
 
 - Software: PostgreSQL 14, Visual Studio Code
 
-## Results
+## Technical Steps
 - <b>Create retirement_titles table</b> ([retirement_titles.csv](https://github.com/Takomochi/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv))<br> 
   By joining Employees table and Titles table, retrieved emp_no, first_name, last_name, title, from_date, and to_date columns. Also, filtered the data by specifying employee's birth date. Below is the code. <br>
   ```
@@ -97,7 +97,14 @@ Using SQL, we will retrieve specific information and save the tables in new csv 
 
     <img width="500" alt="mentorship" src="https://user-images.githubusercontent.com/85041697/144729557-614b49f6-9634-456d-8096-43e282131472.png">
 
+## Results
+- Total 90398 employees are at retiring age according to unique_titles table.
 
+- Senior Engineer position has the highest number of 29414 employees who are at retiring age. Senior Staff position also has a high number of 28254 employees.
+
+- There will be a lot of "Engineer" positions that need to be filled with the new generation because about 48% of retiring age employees are in Engineer positions.
+
+- There are 1549 employees who are eligible to participate in a mentorship program.
 
 ## Summary
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
